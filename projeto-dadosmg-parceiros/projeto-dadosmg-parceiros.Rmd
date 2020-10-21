@@ -1,0 +1,355 @@
+---
+title: "Portal de Dados Abertos"
+subtitle: "dados.mg.gov.br"
+institute: "SCT/CGE"
+date: "10/2020"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    css: ["default", "default-fonts", "assets/styles.css"]
+---
+# Agenda
+
+- Contexto
+  - O que são dados abertos?
+  - O que é um portal de dados abertos?
+- Histórico e experiências
+- Problemas e soluções
+- Projeto dadosmg
+  - O processo de abertura de dados
+  - Padrão de metadados
+  - Abertura dos dados do Portal da Transparência
+  - Desenvolvimento aberto
+- Próximos Passos
+
+???
+
+- Nossos objetivos para as parcerias com os gestores custodiantes de dados são: 
+    - apresentar o PdA e quais problemas ele visa atacar
+    - apresentar o processo de publicação
+    - convidar para um projeto piloto de abertura de dados
+    - obter feedback sobre o processo de publicação
+
+- Nosso objetivo pra hoje é apresentar uma visão geral do PdA e do processo de publicação, ouvir as suas motivações e, especialmente, os tipos de problemas de dados (dores), mesmo que não estejam relacionados ao que a gente apresentou, e por fim conversar sobre o convite e próximos passos.
+
+- O feedback é claro a gente espera durante a execução do projeto piloto
+
+- [INSERIR QUE TIPO DE FEEDBACK ESPERAMOS RECEBER COMO NO GUIA DE TRANSPARENCIA ATIVA. EXEMPLOS: APRESENTACAO INICIAL; FERRAMENTAS E TECNOLOGIAS; ETC]{.todo}
+
+- Ressalva antes de continuarmos é que estamos em pré-alfa
+
+---
+
+# O que são dados abertos?
+
+> __Dados Abertos<sup>1</sup>:__ dados públicos (1) representados em meio digital (2), estruturados em formato aberto (3), processáveis por máquina (4) e referenciados na rede mundial de computadores (5), disponibilizados sob licença aberta (6) que permita sua livre reutilização, consumo ou cruzamento em aplicações digitais desenvolvidas pela sociedade.
+
+O objetivo, que constitui dever dos órgãos e entidades públicas por força da [Lei de Acesso à Informação](http://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm#art8%C2%A73), é a divulgação de dados "de modo a facilitar a análise das informações", incluindo "detalhes [d]os formatos utilizados para estruturação da informação".
+
+.footnote[
+[1] [Resolução CGE 20/2014](http://pesquisalegislativa.mg.gov.br/LegislacaoCompleta.aspx?cod=171158)
+]
+
+---
+
+# O que são dados abertos? 3,5 das [5 estrelas](https://5stardata.info/pt-BR/)
+
+.pull-left[
+![](https://5stardata.info/images/5-star-steps.png)
+]
+.pull-right[
+★ : dados disponíveis na web (não importa o formato) sob uma licença aberta. Por exemplo, um PDF.
+
+★ ★ : dados disponíveis de forma estruturada. Por exemplo, excel no lugar de imagem escaneada.
+
+★ ★ ★ : dados disponíveis em formatos não-proprietários. Por exemplo, um CSV e não excel.
+
+]
+
+> Now in 2010, people have been pressing me, for governmet data, to add a new requirement, and that is there should be metadata about the data itself, and that that metadata should be availble from a major catalog. 
+
+.footnote[
+-- [Tim Berners-Lee](https://www.w3.org/DesignIssues/LinkedData.html)
+]
+
+---
+
+# O que é um portal de dados abertos?
+
+> __Portal:__ site na internet projetado para aglomerar e distribuir conteúdos de várias fontes diferentes de maneira uniforme, sendo um ponto de acesso para [conteúdos de] uma série de outros sites.
+
+.footnote[
+-- [Wikipedia](https://pt.wikipedia.org/wiki/Portal_(internet%29)
+]
+
+
+???
+
+- A natureza do problema solucionado pelo PdA é a mesma do que outros portais na internet, qual seja, servir como ponto de referência para busca e acesso de alguma coisa
+
+- No nosso caso, busca e acesso a conjunto de dados. Um conjunto de dados é uma abstração pra representar uma coleção de dados relacionados. Se estamos falando de dados tabulares, um conjunto de dados seria a pasta de trabalho do Excel com possivelmente múltiplas abas.
+
+- Um outro nome pra um "ponto de referência para busca e acesso de alguma coisa" é um catálogo (ie. lista).
+
+- O PdA é um catálogo (_one-stop shop_) para centralização da divulgação de conjuntos de dados. 
+
+- Aqui podemos ver algumas imagens do nosso PdA e das propostas de valor que ele traz de fábrica
+
+---
+# dados.mg.gov.br
+
+```{r, echo=FALSE}
+knitr::include_graphics("static/dadosmg.png")
+```
+
+.footnote[
+http://dados.mg.gov.br/
+]
+
+???
+
+- 1) consolidação
+
+---
+# dados.mg.gov.br
+
+```{r, echo=FALSE, out.width='85%'}
+knitr::include_graphics("static/dadosmg-search.png")
+```
+
+.footnote[
+http://dados.mg.gov.br/dataset
+]
+
+???
+
+- interface de busca otimizada
+
+---
+# dados.mg.gov.br
+
+```{r, echo=FALSE, out.width='85%'}
+knitr::include_graphics("static/dadosmg-dataset.png")
+```
+
+
+.footnote[
+http://dados.mg.gov.br/dataset/compras-emergenciais-covid-19
+]
+
+???
+
+- links para conjuntos de dados
+
+---
+# dados.mg.gov.br
+
+```{r, echo=FALSE, out.width='85%'}
+knitr::include_graphics("static/dadosmg-resource.png")
+```
+
+.footnote[
+http://dados.mg.gov.br/dataset/compras-emergenciais-covid-19/resource/72d031e9-2753-469a-acfa-2d67417a2f49
+]
+
+???
+
+- links para recursos
+
+---
+# Outros portais de dados abertos
+
+- [INSERIR EXEMPLOS DE OUTROS PORTAIS DE DADOS ABERTOS COM ORGANIZACAO NO GITHUB]{.todo}
+
+- https://github.com/dadosgovbr/
+- https://github.com/GSA/data.gov/
+- https://github.com/alphagov?q=data
+- https://github.com/etalab/data.gouv.fr
+- https://github.com/datosgcba/
+- https://github.com/italia/?q=data
+- https://github.com/datagovau
+
+???
+
+- A quarta proposta de valor que também é de fábrica vem do simples fato de ser uma plataforma, o que significa que existem economias de escala no oferecimento de novas funcionalidades que sejam demandadas (eg. integração com fala.BR/Fale Conosco; fórum de discussão; preview dos dados etc)
+
+- [ALTERACAO ESCOPO DO PdA DE GESTAO DE FINANCAS PUBLICAS]{.todo}
+
+- [TODO MUNDO TEM, FAZ SENTIDO TER, MAS NAO TEM NADA DE NOVO]{.todo}
+
+---
+# Histórico e experiências
+
+???
+
+- Fato: Recebemos duas demandas de atualizar as bases de dados do Portal da Transparência no Portal de Dados Abertos para subsidiar os eventos de Hackathon da Feira Finity em 2016 e do Movimento Amplifique em 2017.
+- Ação: A PRODEMGE extraiu as bases completas dos anos de 2015 e 2016 e a DTA fez o upload delas no Portal de Dados Abertos (manualmente). Em 2017, ocorreu nova atualização com dados de janeiro a julho/17 com o custo de 7.133,00, pago à PRODEMGE
+- Consequências: O Portal de Dados abertos está incompleto e desatualizado - não possui dados de 2002 a 2014 e nem a partir de agosto de 2017, exceto as bases da remuneração. As consultas disponibilizadas após agosto de 2017 não possuem nenhum dado disponível no Portal de Dados abertos
+- Descrição da lição aprendida: A extração automática das bases de dados deveria ter acompanhado todo o processo de construção do Portal, tendo sido previsto desde o início, assim como o serviço de hospedagem. Para 2019, o ideal é conseguir recursos para desenvolver uma aplicação que extrai automaticamente todas as bases do Portal da Transparência e disponibiliza no Portal de Dados Abertos.
+
+- No geral ficou a desejar em razão de falta de capacidade em gestão de dados enquanto disciplina que implica em uma dificuldade de publicar dados que por lei deveriam estar sendo publicados, especialmente automação e qualidade
+
+---
+# Problemas e soluções - Automação
+
+
+???
+
+- Automação é uma responsabilidade essencialmente do custodiante/publicador de dados. A nossa responsabilidade enquanto administrador do PdA é garantir que exista um processo de catalogação que seja automatizável
+
+- Podemos conversar, mas hoje, seria basicamente pra compartilhar as nossas dificuldades
+
+---
+# Problemas e soluções - Qualidade
+
+- Upload de arquivos incorretos
+
+- Alteração nos nomes das colunas
+
+- Alteração na ordem das colunas
+
+- Alteração nos cabeçalhos das colunas
+
+- Alteração no formato dos arquivos (csv -> xslx -> csv)
+
+- Alteração de leiautes sem comunicação
+
+- Documentação não disponibilizada em formato estruturado
+
+- Documentação não disponibilizada junto com os dados 
+
+- Documentação inexistente para dados de referência (códigos, descrições e interpretações e domínio das colunas)
+
+---
+# Problemas e soluções - Qualidade
+
+Algumas definições<sup>1</sup>
+
+.footnote[
+[1] Tradução e adaptação da [ISO 9000](https://en.wikipedia.org/wiki/ISO_9000)
+]
+
+> __qualidade:__ grau em que um conjunto de características inerentes [ie. metadados] de um objeto [ie. dados] atende a especificação [ie. padrão]
+
+--
+
+<br>
+
+A aferição da qualidade também deve ser um processo automatizado.
+
+--
+
+<br>
+
+Solução - Parte 1: Adoção de um padrão para documentação dos dados (ie. metadados) que permita uma verificação/validação automatizável se os dados estão em conformidade com o especificado
+
+???
+
+- Do ponto de vista de qualidade o nosso papel enquanto administrador é maior, pois, enquanto gestores da plataforma, podemos fazer [moderação de conteúdo][20201016T180948], ou seja, estabelecer as regras e diretrizes sobre qual conteúdo pode ser publicado. As regras impactam diretamente na qualidade do conteúdo publicado
+
+- Solução - Parte 2: Catalogação automatizada no PdA de conjuntos de dados publicados pelos órgãos e entidades que foram documentados de acordo com o padrão de metadados escolhido
+
+---
+# O processo de abertura de dados
+
+```{r, echo=FALSE, out.width='85%'}
+knitr::include_graphics("static/kit-processo-abertura-dados.png")
+```
+
+.footnote[
+-- [Kit para dados abertos](https://kit.dados.gov.br/Abertura-de-dados/)
+]
+
+???
+
+- O objetivo do [projeto piloto](https://github.com/dadosgovbr/kit/blob/master/Piloto-%C3%A1gil.md) foram bem sumarizados no [Kit para dados abertos](https://kit.dados.gov.br/) do Governo Federal, quais sejam:
+    - Ter, em curto prazo, um resultado prático de abertura de dados à disposição da sociedade
+    - Preparar as equipes técnicas da instituição, familiarizando-as com os conceitos, terminologias, métodos e ferramentas necessários ao processo de abertura de dados
+    - Iniciar o preparo da infraestrutura tecnológica de suporte aos dados abertos na instituição
+    - Colher das lições aprendidas no projeto de piloto ágil as necessidades para os futuros projetos de abertura de dados, tais como capacitação de pessoal, aquisição de infraestrutura, etc.
+
+---
+# Projeto dadosmg - Padrão de metadados
+
+```json
+{
+  "fields": [
+    {
+      "name": "name of field (e.g. column name)",
+      "title": "A nicer human readable label",
+      "type": "A string specifying the type",
+      "format": "A string specifying a format",
+      "description": "A description for the field"
+      ...
+    },
+    ... more field descriptors
+  ],
+  // (optional) specification of missing values
+  "missingValues": [ ... ],
+  // (optional) specification of the primary key
+  "primaryKey": ...
+  // (optional) specification of the foreign keys
+  "foreignKeys": ...
+}
+```
+
+???
+
+- Padrão de metadados é um template do excel bombado
+
+---
+# Projeto dadosmg - Validação
+
+```{r, echo=FALSE}
+knitr::include_graphics("static/goodtables.png")
+```
+
+- [Github](https://github.com/dados-mg/compras-emergenciais-covid-19)
+- [CKAN](http://dados.mg.gov.br/dataset/compras-emergenciais-covid-19)
+
+
+---
+# Projeto dadosmg - Desenvolvimento aberto
+
+- Desenvolvimento: Template de projeto padrão + Gestão de tickets + Controle de versão
+
+- Aberto: Indivíduo | Equipe | Organização | Estado | Sociedade
+
+???
+
+- Adotar práticas e fluxos de trabalho da engenharia de software para fins de criação dos data packages
+
+- Fazer isso de forma aberta e colaborativa
+
+- Criação de capacidade nas equipes de dados dos órgãos e entidades
+
+---
+# Próximos passos
+
+### Equipe gerencial
+
+- Seleção de conjunto(s) de dados para abertura
+- Indicação de equipe do projeto e ponto focal
+- Deliberação sobre adoção de desenvolvimento aberto
+
+### Equipe técnica
+
+- Leitura dos guias:
+  - [Introdução ao Frictionless Data](https://frictionlessdata.io/guide/)
+  - [Introdução ao Table Schema](https://frictionlessdata.io/table-schema/)
+  - [Introdução ao Data Package](https://frictionlessdata.io/data-package/)
+  - [Especificações](https://specs.frictionlessdata.io/)
+- Assistir:
+  - [Data Package Creator walkthrough](https://www.youtube.com/watch?v=VrdPj28-L9g)
+  - [Frictionless Data Fellows Workshop](https://www.youtube.com/watch?v=EFQmudQP4io)
+- Participar das [discussões](https://github.com/dados-mg/issues/issues) do Projeto dadosmg
+
+---
+# Glossário - Markdown
+
+
+---
+# Glossário - Comma-separated values (CSV)
+
+---
+# Glossário - JavaScript Object Notation (JSON)
