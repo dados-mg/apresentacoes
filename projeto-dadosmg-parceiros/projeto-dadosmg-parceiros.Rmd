@@ -275,6 +275,15 @@ Solução - Parte 1: Adoção de um padrão para documentação dos dados (ie. m
 - Solução - Parte 2: Catalogação automatizada no PdA de conjuntos de dados publicados pelos órgãos e entidades que foram documentados de acordo com o padrão de metadados escolhido
 
 ---
+# Padronização
+
+.center[
+```{r, echo=FALSE, out.width='85%'}
+knitr::include_graphics("https://imgs.xkcd.com/comics/standards.png")
+```
+]
+
+---
 # O processo de abertura de dados
 
 ```{r, echo=FALSE, out.width='85%'}
@@ -314,9 +323,10 @@ knitr::include_graphics("static/kit-processo-abertura-dados.png")
   // (optional) specification of the primary key
   "primaryKey": ...
   // (optional) specification of the foreign keys
-  "foreignKeys": ...
 }
 ```
+
+-- [Frictionless Data Specs](https://specs.frictionlessdata.io/)
 
 ???
 
