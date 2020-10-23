@@ -379,3 +379,16 @@ knitr::include_graphics("static/goodtables.png")
   - [Frictionless Data Fellows Workshop](https://www.youtube.com/watch?v=EFQmudQP4io)
 - Explorar ecossistema de ferramentas do [Frictionless Data](https://frictionlessdata.io/)
 - Participar das [discussões](https://github.com/dados-mg/issues/issues) do Projeto dadosmg
+
+---
+# Outras oportunidades
+
+- Desenvolvimento de um fluxo de dados (ETL / data pipeline) para processamento e publicação dos conjuntos de dados geridos de forma centralizada pela equipe do Portal de Dados Abertos
+- Planejamento de pesquisa com usuários para levantamento e validação das funcionalidades do Portal de Dados Abertos para elaboração de roadmap
+- Concepção e desenvolvimento de um fluxo de dados (harvesting) para publicação dos conjuntos de dados geridos de forma descentralizada pelos órgãos e entidades do Estado de Minas Gerais
+- Sugestões de melhoria ao padrão de metadados (Frictionless Data) selecionado para documentação dos conjuntos de dados do Portal de Dados Abertos
+- Concepção de identidade visual e desenvolvimento de tema no CKAN para customização do Portal de Dados Abertos
+
+.footnote[
+-- [Portifólio de Projetos de Controle Social, Integridade e Transparência](https://gist.github.com/fjuniorr/36abc1cd5988246c72dc62f175cdee21#file-portal-dados-abertos-md)
+]
