@@ -60,6 +60,36 @@ O objetivo, que constitui dever dos órgãos e entidades públicas por força da
 ]
 
 ---
+# O que são dados abertos?
+
+> Art. 8º É dever dos órgãos e entidades públicas promover, independentemente de requerimentos, a divulgação em local de fácil acesso, no âmbito de suas competências, de informações de interesse coletivo ou geral por eles produzidas ou custodiadas.
+> 
+> [...]
+> 
+> § 2º Para cumprimento do disposto no caput, os órgãos e entidades públicas deverão utilizar todos os meios e instrumentos legítimos de que dispuserem, sendo obrigatória a divulgação em sítios oficiais da rede mundial de computadores (internet).
+
+.footnote[
+-- [Lei nº 12.527/2011](http://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm#art8)
+]
+
+---
+# O que são dados abertos?
+
+> § 3º Os sítios de que trata o § 2º deverão, na forma de regulamento, atender, entre outros, aos seguintes requisitos:
+> 
+> I - conter ferramenta de pesquisa de conteúdo que permita o acesso à informação de forma objetiva, transparente, clara e em linguagem de fácil compreensão;
+> 
+> II - possibilitar a gravação de relatórios em diversos formatos eletrônicos, inclusive abertos e não proprietários, tais como planilhas e texto, de modo a facilitar a análise das informações;
+> 
+> III - possibilitar o acesso automatizado por sistemas externos em formatos abertos, estruturados e legíveis por máquina;
+> 
+> IV - divulgar em detalhes os formatos utilizados para estruturação da informação;
+> 
+> V - garantir a autenticidade e a integridade das informações disponíveis para acesso;
+> 
+> VI - manter atualizadas as informações disponíveis para acesso;
+
+---
 
 # O que são dados abertos? 3,5 das [5 estrelas](https://5stardata.info/pt-BR/)
 
@@ -196,9 +226,11 @@ http://dados.mg.gov.br/dataset/compras-emergenciais-covid-19/resource/72d031e9-2
 
 - [Resolução CGE 20, de 06/08/2014](http://pesquisalegislativa.mg.gov.br/LegislacaoCompleta.aspx?cod=171158) - Estabelece conceitos e diretrizes, no âmbito da Administração direta, autárquica e fundacional do Poder Executivo Estadual, em matéria de dados abertos governamentais.
 
+  Estabelece que os critérios e procedimentos necessários para abertura dos dados governamentais pelos demais órgãos e entidades serão definidos pela Subcontroladoria da Informação Institucional e da Transparência, em conjunto com o Comitê Executivo de Tecnologia da Informação e Comunicação.
+
 - [Resolução Conjunta SEPLAG/CGE 9881, de 24/07/2018](http://pesquisalegislativa.mg.gov.br/LegislacaoCompleta.aspx?cod=183657) - Dispõe sobre a atuação conjunta para o fortalecimento do ambiente de integridade no âmbito da Administração Pública estadual. 
 
-Um dos objetivos constantes do plano de ação é "Instituir marco normativo para a abertura de dados no âmbito dos órgãos e entidades da Administração Pública estadual"
+    Um dos objetivos constantes do plano de ação é "Instituir marco normativo para a abertura de dados no âmbito dos órgãos e entidades da Administração Pública estadual"
 
 ???
 
@@ -254,6 +286,12 @@ Algumas definições<sup>1</sup>
 [1] Tradução e adaptação da [ISO 9000](https://en.wikipedia.org/wiki/ISO_9000)
 ]
 
+> __qualidade:__ grau em que um conjunto de características inerentes de um objeto  atende a especificação
+
+--
+
+<br>
+
 > __qualidade:__ grau em que um conjunto de características inerentes [ie. metadados] de um objeto [ie. dados] atende a especificação [ie. padrão]
 
 --
@@ -264,9 +302,7 @@ A aferição da qualidade também deve ser um processo automatizado.
 
 --
 
-<br>
-
-Solução - Parte 1: Adoção de um padrão para documentação dos dados (ie. metadados) que permita uma verificação/validação automatizável se os dados estão em conformidade com o especificado
+Solução: Adoção de um padrão para documentação dos dados que permita uma verificação/validação automatizável se os dados estão em conformidade com o especificado
 
 ???
 
