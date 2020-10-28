@@ -69,26 +69,34 @@ O objetivo, que constitui dever dos órgãos e entidades públicas por força da
 ]
 
 ---
+# O que são dados abertos?
 
-# O que são dados abertos? 3,5 das [5 estrelas](https://5stardata.info/pt-BR/)
-
-.pull-left[
-![](https://5stardata.info/images/5-star-steps.png)
-]
-.pull-right[
-★ : dados disponíveis na web (não importa o formato) sob uma licença aberta. Por exemplo, um PDF.
-
-★ ★ : dados disponíveis de forma estruturada. Por exemplo, excel no lugar de imagem escaneada.
-
-★ ★ ★ : dados disponíveis em formatos não-proprietários. Por exemplo, um CSV e não excel.
-
-]
-
-&gt; Now in 2010, people have been pressing me, for governmet data, to add a new requirement, and that is there should be metadata about the data itself, and that that metadata should be availble from a major catalog. 
+&gt; Art. 8º É dever dos órgãos e entidades públicas promover, independentemente de requerimentos, a divulgação em local de fácil acesso, no âmbito de suas competências, de informações de interesse coletivo ou geral por eles produzidas ou custodiadas.
+&gt; 
+&gt; [...]
+&gt; 
+&gt; § 2º Para cumprimento do disposto no caput, os órgãos e entidades públicas deverão utilizar todos os meios e instrumentos legítimos de que dispuserem, sendo obrigatória a divulgação em sítios oficiais da rede mundial de computadores (internet).
 
 .footnote[
--- [Tim Berners-Lee](https://www.w3.org/DesignIssues/LinkedData.html)
+-- [Lei nº 12.527/2011](http://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm#art8)
 ]
+
+---
+# O que são dados abertos?
+
+&gt; § 3º Os sítios de que trata o § 2º deverão, na forma de regulamento, atender, entre outros, aos seguintes requisitos:
+&gt; 
+&gt; I - conter ferramenta de pesquisa de conteúdo que permita o acesso à informação de forma objetiva, transparente, clara e em linguagem de fácil compreensão;
+&gt; 
+&gt; II - possibilitar a gravação de relatórios em diversos formatos eletrônicos, inclusive abertos e não proprietários, tais como planilhas e texto, de modo a facilitar a análise das informações;
+&gt; 
+&gt; III - possibilitar o acesso automatizado por sistemas externos em formatos abertos, estruturados e legíveis por máquina;
+&gt; 
+&gt; IV - divulgar em detalhes os formatos utilizados para estruturação da informação;
+&gt; 
+&gt; V - garantir a autenticidade e a integridade das informações disponíveis para acesso;
+&gt; 
+&gt; VI - manter atualizadas as informações disponíveis para acesso;
 
 ---
 
@@ -197,9 +205,11 @@ http://dados.mg.gov.br/dataset/compras-emergenciais-covid-19/resource/72d031e9-2
 
 - [Resolução CGE 20, de 06/08/2014](http://pesquisalegislativa.mg.gov.br/LegislacaoCompleta.aspx?cod=171158) - Estabelece conceitos e diretrizes, no âmbito da Administração direta, autárquica e fundacional do Poder Executivo Estadual, em matéria de dados abertos governamentais.
 
+  Estabelece que os critérios e procedimentos necessários para abertura dos dados governamentais pelos demais órgãos e entidades serão definidos pela Subcontroladoria da Informação Institucional e da Transparência, em conjunto com o Comitê Executivo de Tecnologia da Informação e Comunicação.
+
 - [Resolução Conjunta SEPLAG/CGE 9881, de 24/07/2018](http://pesquisalegislativa.mg.gov.br/LegislacaoCompleta.aspx?cod=183657) - Dispõe sobre a atuação conjunta para o fortalecimento do ambiente de integridade no âmbito da Administração Pública estadual. 
 
-Um dos objetivos constantes do plano de ação é "Instituir marco normativo para a abertura de dados no âmbito dos órgãos e entidades da Administração Pública estadual"
+    Um dos objetivos constantes do plano de ação é "Instituir marco normativo para a abertura de dados no âmbito dos órgãos e entidades da Administração Pública estadual"
 
 ???
 
@@ -209,6 +219,27 @@ Um dos objetivos constantes do plano de ação é "Instituir marco normativo par
 - Descrição da lição aprendida: A extração automática das bases de dados deveria ter acompanhado todo o processo de construção do Portal, tendo sido previsto desde o início, assim como o serviço de hospedagem. Para 2019, o ideal é conseguir recursos para desenvolver uma aplicação que extrai automaticamente todas as bases do Portal da Transparência e disponibiliza no Portal de Dados Abertos.
 
 - No geral ficou a desejar em razão de falta de capacidade em gestão de dados enquanto disciplina que implica em uma dificuldade de publicar dados que por lei deveriam estar sendo publicados, especialmente automação e qualidade
+
+---
+# Problemas e soluções - 3,5 das [5 estrelas](https://5stardata.info/pt-BR/)
+
+.pull-left[
+![](https://5stardata.info/images/5-star-steps.png)
+]
+.pull-right[
+★ : dados disponíveis na web (não importa o formato) sob uma licença aberta. Por exemplo, um PDF.
+
+★ ★ : dados disponíveis de forma estruturada. Por exemplo, excel no lugar de imagem escaneada.
+
+★ ★ ★ : dados disponíveis em formatos não-proprietários. Por exemplo, um CSV e não excel.
+
+]
+
+&gt; Now in 2010, people have been pressing me, for governmet data, to add a new requirement, and that is there should be metadata about the data itself, and that that metadata should be availble from a major catalog. 
+
+.footnote[
+-- [Tim Berners-Lee](https://www.w3.org/DesignIssues/LinkedData.html)
+]
 
 ---
 # Problemas e soluções - Automação
@@ -255,6 +286,12 @@ Algumas definições&lt;sup&gt;1&lt;/sup&gt;
 [1] Tradução e adaptação da [ISO 9000](https://en.wikipedia.org/wiki/ISO_9000)
 ]
 
+&gt; __qualidade:__ grau em que um conjunto de características inerentes de um objeto  atende a especificação
+
+--
+
+&lt;br&gt;
+
 &gt; __qualidade:__ grau em que um conjunto de características inerentes [ie. metadados] de um objeto [ie. dados] atende a especificação [ie. padrão]
 
 --
@@ -265,9 +302,7 @@ A aferição da qualidade também deve ser um processo automatizado.
 
 --
 
-&lt;br&gt;
-
-Solução - Parte 1: Adoção de um padrão para documentação dos dados (ie. metadados) que permita uma verificação/validação automatizável se os dados estão em conformidade com o especificado
+Solução: Adoção de um padrão para documentação dos dados que permita uma verificação/validação automatizável se os dados estão em conformidade com o especificado
 
 ???
 
@@ -299,6 +334,23 @@ Solução - Parte 1: Adoção de um padrão para documentação dos dados (ie. m
     - Iniciar o preparo da infraestrutura tecnológica de suporte aos dados abertos na instituição
     - Colher das lições aprendidas no projeto de piloto ágil as necessidades para os futuros projetos de abertura de dados, tais como capacitação de pessoal, aquisição de infraestrutura, etc.
 
+---
+# O processo de abertura de dados - Exemplo data.gov
+
+1. Federal agencies are required publish an enterprise data inventory, provided as a `data.json` file
+
+2. Using the standard [Project Open Data metadata schema](https://resources.data.gov/resources/dcat-us/)
+
+3. On the agency’s website at `agency.gov/data.json`
+
+4. Data.gov team creates a new Data.gov harvest source for the `data.json`
+
+5. The `data.json` file gets harvested to the Data.gov catalog
+
+
+.footnote[
+-- [How to get your Open Data on Data.gov](https://resources.data.gov/resources/data-gov-open-data-howto/)
+]
 ---
 # Projeto dadosmg - Padrão de metadados
 
