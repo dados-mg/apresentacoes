@@ -303,6 +303,23 @@ knitr::include_graphics("static/kit-processo-abertura-dados.png")
     - Colher das lições aprendidas no projeto de piloto ágil as necessidades para os futuros projetos de abertura de dados, tais como capacitação de pessoal, aquisição de infraestrutura, etc.
 
 ---
+# O processo de abertura de dados - Exemplo data.gov
+
+1. Federal agencies are required publish an enterprise data inventory, provided as a `data.json` file
+
+2. Using the standard [Project Open Data metadata schema](https://resources.data.gov/resources/dcat-us/)
+
+3. On the agency’s website at `agency.gov/data.json`
+
+4. Data.gov team creates a new Data.gov harvest source for the `data.json`
+
+5. The `data.json` file gets harvested to the Data.gov catalog
+
+
+.footnote[
+-- [How to get your Open Data on Data.gov](https://resources.data.gov/resources/data-gov-open-data-howto/)
+]
+---
 # Projeto dadosmg - Padrão de metadados
 
 ```json
