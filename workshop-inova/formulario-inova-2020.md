@@ -1,33 +1,35 @@
-#NOVA 2020 - [INFORMAÇÕES](https://docs.google.com/forms/d/e/1FAIpQLSdI9mU3WgInhfB9nnO47jQOGxd3KHCqlqA2Vq-8-GqMbU5hwg/viewform)
+# INOVA 2020 - [INFORMAÇÕES](https://docs.google.com/forms/d/e/1FAIpQLSdI9mU3WgInhfB9nnO47jQOGxd3KHCqlqA2Vq-8-GqMbU5hwg/viewform)
 
 Conte pra gente como será o evento que você executará na Semana de Inovação! A semana de inovação acontecerá no período de 30/11 a 4/12
-* Required
+'* Required
 
-* Área/Órgão/Instituição: * 
+* __Área/Órgão/Instituição:__ * 
 DIRETORIA CENTRAL DE TRANSPARÊNCIA ATIVA DA CONTROLADORIA GERAL DO ESTADO DE MINAS GERAIS
 
-* Telefone para contato: * 
+* __Telefone para contato:__ * 
 31991557514
 
-* E-mail para contato: * 
+* __E-mail para contato:__ * 
 andre.amorim@cge.mg.gov.br
 
-* Nome do responsável pelo evento: (Responsável pela execução do evento) * 
+* __Nome do responsável pelo evento: (Responsável pela execução do evento)__ * 
+
 Francisco Alves de Oliveira Júnior
 
-* Se possível acrescentar um mini currículo:
+* __Se possível acrescentar um mini currículo:__
+
 Especialista em Políticas Públicas e Gestão Governamental, graduado em Administração Pública pela Escola de Governo da Fundação João Pinheiro, mestre em Economia e Políticas Públicas pela UNiversidade de York e pós-graduado em estatística pela UFMG. Atualmente é Diretor Central de Transparência Ativa, . Anteriormente trabalhou na Diretoria Central de Gestão Fiscal (DCGF/SCPPO/SEPLAG), onde realizou o monitoramento, estudos, pesquisas e relatórios de indicadores de natureza econômica e fiscal.
 
-* Título para o EVENTO: (Lembre-se que o nome do seu evento é fundamental para atrair o público - até 120 caracteres) *
+* __Título para o EVENTO: (Lembre-se que o nome do seu evento é fundamental para atrair o público - até 120 caracteres)__ *
 
 Dados abertos sem fricção - Documentando, validando e publicando dados com datapackages
 
-* Breve descrição: (Esta Descrição aparecerá na agenda e na divulgação dos eventos - até 200 caracteres) *
+* __Breve descrição: (Esta Descrição aparecerá na agenda e na divulgação dos eventos - até 200 caracteres)__ *
 
 Oficina que pretende mostrar o processo de documentação, validação e publicação de um conjunto de dados, a partir de ferramentas online. Inclui a criação de um datapackage e validação de seu esquema.
 
 
-* Descrição detalhada: (até 500 caracteres)
+* __Descrição detalhada: (até 500 caracteres)__
 
 Oficina que pretende comunicar a importância da adoção de boas práticas na abertura de dados e mostrar o processo de documentação, validação e publicação de um conjunto de dados, a partir de ferramentas online. Objetiva-se que o participante possa:
 - compreender a importância da adoção de especificações para a qualidade de seus dados; 
@@ -36,11 +38,11 @@ Oficina que pretende comunicar a importância da adoção de boas práticas na a
 - corrigir erros comuns do fluxo de validação de dados
 
 
-* Previsão de duração: (de 30min a 1hr) *
+* __Previsão de duração: (de 30min a 1hr)__ *
 
 1h
 
-* Pré-requisitos: (Quais os pré-requisitos necessários para os participantes?)
+* __Pré-requisitos: (Quais os pré-requisitos necessários para os participantes?)__
 
 1. Público-alvo: analistas e demais responsáveis pelos dados das áreas de negócio dos órgãos e entidades do executivo estadual
 
@@ -48,14 +50,14 @@ Oficina que pretende comunicar a importância da adoção de boas práticas na a
 
 3. Cadastro (conta ativa com login) no [github](https://github.com/)
 
-* Limitação de público:
+* __Limitação de público:__
 
 ``Até 20 participantes``
 Até 50 participantes
 Até 100 participantes
 Mais de 100 participantes
 
-* Assunto(s): *
+* __Assunto(s):__ *
 
 5G
 Arduino e Raspberry
@@ -77,7 +79,7 @@ Segurança da Informação
 Soluções Prodemge
 ``Transformação Digital``
 
-* Formato de execução:
+* __Formato de execução:__
 
 Curso
 Desafios, Hackathon e Jogos
