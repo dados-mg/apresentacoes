@@ -4,12 +4,15 @@ Conte pra gente como será o evento que você executará na Semana de Inovação
 '* Required
 
 * __Área/Órgão/Instituição:__ * 
+
 DIRETORIA CENTRAL DE TRANSPARÊNCIA ATIVA DA CONTROLADORIA GERAL DO ESTADO DE MINAS GERAIS
 
 * __Telefone para contato:__ * 
+
 31991557514
 
 * __E-mail para contato:__ * 
+
 andre.amorim@cge.mg.gov.br
 
 * __Nome do responsável pelo evento: (Responsável pela execução do evento)__ * 
@@ -18,7 +21,7 @@ Francisco Alves de Oliveira Júnior
 
 * __Se possível acrescentar um mini currículo:__
 
-Especialista em Políticas Públicas e Gestão Governamental, graduado em Administração Pública pela Escola de Governo da Fundação João Pinheiro, mestre em Economia e Políticas Públicas pela UNiversidade de York e pós-graduado em estatística pela UFMG. Atualmente é Diretor Central de Transparência Ativa, . Anteriormente trabalhou na Diretoria Central de Gestão Fiscal (DCGF/SCPPO/SEPLAG), onde realizou o monitoramento, estudos, pesquisas e relatórios de indicadores de natureza econômica e fiscal.
+Especialista em Políticas Públicas e Gestão Governamental, graduado em Administração Pública pela Escola de Governo da Fundação João Pinheiro, mestre em Economia e Políticas Públicas pela Universidade de York e pós-graduado em estatística pela UFMG e em Engenharia de Software Centrada em Métodos Ágeis pela UNA. Atualmente é Diretor Central de Transparência Ativa. Anteriormente trabalhou na Diretoria Central de Gestão Fiscal (DCGF/SCPPO/SEPLAG), onde realizou o monitoramento, estudos, pesquisas e relatórios de indicadores de natureza econômica e fiscal.
 
 * __Título para o EVENTO: (Lembre-se que o nome do seu evento é fundamental para atrair o público - até 120 caracteres)__ *
 
@@ -31,9 +34,11 @@ Oficina que pretende mostrar o processo de documentação, validação e publica
 
 * __Descrição detalhada: (até 500 caracteres)__
 
-Oficina que pretende comunicar a importância da adoção de boas práticas na abertura de dados e mostrar o processo de documentação, validação e publicação de um conjunto de dados, a partir de ferramentas online. Objetiva-se que o participante possa:
-- compreender a importância da adoção de especificações para a qualidade de seus dados; 
-- criar um datapackage; 
+Oficina que pretende comunicar a importância da adoção de boas práticas na abertura de dados e mostrar o processo de documentação, validação e publicação de um conjunto de dados, a partir de ferramentas online. O participante vai:
+
+- compreender a importância de documentação para a qualidade de seus dados; 
+- conhecer o projeto Frictionless Data;
+- criar um data package; 
 - criar um esquema e utilizá-lo para validar um conjunto de dados;
 - corrigir erros comuns do fluxo de validação de dados
 
