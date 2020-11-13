@@ -17,11 +17,11 @@ andre.amorim@cge.mg.gov.br
 
 * __Nome do responsável pelo evento: (Responsável pela execução do evento)__ * 
 
-Francisco Alves de Oliveira Júnior
+André Luiz Guimarães Amorim
 
 * __Se possível acrescentar um mini currículo:__
 
-Especialista em Políticas Públicas e Gestão Governamental, graduado em Administração Pública pela Escola de Governo da Fundação João Pinheiro, mestre em Economia e Políticas Públicas pela Universidade de York e pós-graduado em estatística pela UFMG e em Engenharia de Software Centrada em Métodos Ágeis pela UNA. Atualmente é Diretor Central de Transparência Ativa. Anteriormente trabalhou na Diretoria Central de Gestão Fiscal (DCGF/SCPPO/SEPLAG), onde realizou o monitoramento, estudos, pesquisas e relatórios de indicadores de natureza econômica e fiscal.
+Especialista em Políticas Públicas e Gestão Governamental, graduado em Administração Pública pela Escola de Governo da Fundação João Pinheiro. Co-responsável pela implantação do novo portal de Dados Abertos de Minas Gerais.
 
 * __Título para o EVENTO: (Lembre-se que o nome do seu evento é fundamental para atrair o público - até 120 caracteres)__ *
 
@@ -57,8 +57,8 @@ Oficina que pretende comunicar a importância da adoção de boas práticas na a
 
 * __Limitação de público:__
 
-``Até 20 participantes``
-Até 50 participantes
+Até 20 participantes
+``Até 50 participantes``
 Até 100 participantes
 Mais de 100 participantes
 
