@@ -1,38 +1,68 @@
 # Roteiro hands-on
 
-1. Mostrar csv e pedir para pessoas baixarem o arquivo
+## pressupostos: 
 
-2. Datapackage creator - explicar e passar URL de raw data do csv
+	- mesmo arquivo (CSV)
 
-3. Datapackage creator - preencher dataset panel, schema panel e resource infos
+	- operações somente em ferramentas online (datapackage creator, github e goodtables.io)
 
-4. Baixar datapackage.json 
+	- distinção do nível de metadados na apresentação (dataset, resource e schema); verificar distinção de metadados de negócio e técnicos
 
-5. Github: criar repositório novo e fazer upload do datapackage
+	- preenchimento do datapackage creator com os conceitos de cada campo
 
-6. Goodtables: logar com github e sincronizar novo repositório
+	- não é o foco exaurir dúvidas concretas das pessoas ao vivo e lembrar que o material vai estar dispónível com comentários mais detalhados e atualizados com dúvidas que chegarem
 
-7. Goodtables: verificar resultado da validação
+1. Preparação da documentação do conjunto de dados 
 
-8. Goodtables para guthub: colar referência em markdown do badge de validação
+	1.1. Datapackage creator - explicar os campos (comentar a possibilidade de tb carregar o arquivo pela URL do raw data) e fazer o preenchimento dos metadados em nível de dataset com os conceitos de cada campo, antes de fazer upload do arquivo csv. Enfoque na versão - (retomar material Vitor curso OKBR)
 
-9. Comentar principais erros de validação e citar referência da documentação do pacote frictionless data py
+	1.2. Mostrar csv e pedir para pessoas baixarem o arquivo
 
-	9.1. sobre o arquivo: 
+	1.3. Datapackage creator - fazer upload do csv baixado e preencher o schema panel e resource infos (preencher somente um resource e comentar sobre a possibilidade de carregar mais de um recurso); 
 
-		- header; 
+	PAUSA PARA PREENCHIMENTO (2 min)
 
-		- extra value;
+	1.4. Mostrar que é possível e preciso validar o preview do arquivo gerado. Fazer um erro proposital de deixar maiúsculo o nome do recurso . A validação aqui não faz confronto dos dados com os metadados (ex. tipo do dado - date, integer, number = isso é função do goodtables). Mostrar que é possível fazer o upload de um arquivo de datapackage.json já existente
 
-		- blak row; 
+	PAUSA PARA TESTES (1 min)
 
-		- duplicate row;
+	1.5. Baixar o arquivo datapackage.json 
 
-	9.2. sobre as variáveis:
+2. Github: criar repositório novo (VAZIO)
 
-		- formato de data (ISO X excell X default goodtables.io)
+	PAUSA PARA CRIAÇÃO DO REPO E UPLOAD DOS ARQUIVOS (2 min)
 
-		- formato dos números: separador de milhar e de decimais 
+3. Validando o datapackage criado com Goodtables
+
+	3.1. Logar com github e sincronizar novo repositório (manage sources = avaliable repositories)
+
+	PAUSA PARA SINCRONIZAÇÃO
+
+ 	3.2. Fazer upload do arquivo csv com seu datapackage.json no github
+
+ 	PAUSA PARA UPLOAD
+
+	3.3. Verificar resultado da validação (dashboard)
+
+	3.4. Comentar principais erros de validação e citar referência da documentação do pacote frictionless data py
+
+		3.4.1. sobre o arquivo: 
+
+			- header; 
+
+			- extra value;
+
+			- blak row; 
+
+			- duplicate row;
+
+		3.4.2. sobre as variáveis:
+
+			- formato de data (ISO X excell X default goodtables.io)
+
+			- formato dos números: separador de milhar e de decimais 
+
+	3.5. Colar referência em markdown do badge de validação no readme do repo do guthub
 
 
 ## Comentários úteis:
@@ -41,7 +71,7 @@
 
 2. Renderização automática de CSV no github: [somente arquivos com vírgulas como separadores](https://github.com/dados-mg/projetos-abertura-conjuntos-dados/pull/1) permitem o github apresentar o arquivo com visualização tabular, similar a que se tem quando se abre o csv no excell 
 
-3. 
+3. Explicar o delay entre o resultado da validação automática e a sinalização do badge de validação
 
 ## Follow up
 
