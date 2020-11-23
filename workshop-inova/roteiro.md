@@ -38,7 +38,7 @@
 
 	PAUSA PARA SINCRONIZAÇÃO
 
-	![](workshop-inova/goodtables-github-1stauthorization.png)
+	![image](workshop-inova/goodtables-github-1stauthorization.png)
 
  	3.2. Fazer upload do arquivo csv com seu datapackage.json no github
 
