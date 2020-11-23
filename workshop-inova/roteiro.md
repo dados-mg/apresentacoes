@@ -30,13 +30,15 @@
 
 2. Github: criar repositório novo (VAZIO)
 
-	PAUSA PARA CRIAÇÃO DO REPO E UPLOAD DOS ARQUIVOS (2 min)
+	PAUSA PARA CRIAÇÃO DO REPO (1 min)
 
 3. Validando o datapackage criado com Goodtables
 
 	3.1. Logar com github e sincronizar novo repositório (manage sources = avaliable repositories)
 
 	PAUSA PARA SINCRONIZAÇÃO
+
+	![](workshop-inova/goodtables-github-1stauthorization.png)
 
  	3.2. Fazer upload do arquivo csv com seu datapackage.json no github
 
