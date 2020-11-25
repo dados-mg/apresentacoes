@@ -1,0 +1,59 @@
+{
+  "profile": "tabular-data-package",
+  "resources": [
+    {
+      "name": "resource1",
+      "path": "https://raw.githubusercontent.com/andrelgamei/workshop/main/data.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "descsitser",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "nmefet",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "tem_apost",
+            "type": "any",
+            "format": "default"
+          },
+          {
+            "name": "desccomi",
+            "type": "any",
+            "format": "default"
+          },
+          {
+            "name": "descinst",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "descunid",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "carga_hora",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "remuner",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "data",
+            "type": "integer",
+            "format": "default"
+          }
+        ]
+      }
+    }
+  ]
+}
