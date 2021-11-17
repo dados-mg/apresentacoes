@@ -37,8 +37,14 @@
 
 - [Oficina Dados Abertos sem Fricção, dez/2020](https://www.youtube.com/watch?v=tZ0bmlnqMuY), sobre o processo de documentação e validação de conjuntos de dados com ferramentas de automação do processo de trabalho
 
+- [Curso CKAN, Augusto Hermann, 2014](http://www.inf.ufsc.br/~jose.todesco/LODBrasil/Minicurso/CKAN.pdf)
 
-# PORTAL DE DADOS ABERTOS DE MINAS GERAIS
+- [Guia do Usuário CKAN, Instituto Brasileiro de Informação em Ciência e Tecnologia, 2017](https://www.centraldocidadao.rs.gov.br/upload/arquivos/201707/31095002-guia-do-usuario-ckan-ibict.pdf)
+
+
+# EXEMPLOS DE PORTAIS
+
+## PORTAL DE DADOS ABERTOS DE MINAS GERAIS
 
 - [Página 'Sobre'](https://dados.mg.gov.br/about)
 
@@ -50,13 +56,6 @@
 - [Kit para Dados Abertos](https://kit.dados.gov.br/)
 
 - [Manuais e Orientações](https://dados.gov.br/pagina/manuais-e-orientacoes)
-
-
-## CKAN 
-
-- [Curso CKAN, Augusto Hermann, 2014](http://www.inf.ufsc.br/~jose.todesco/LODBrasil/Minicurso/CKAN.pdf)
-
-- [Guia do Usuário CKAN, Instituto Brasileiro de Informação em Ciência e Tecnologia, 2017](https://www.centraldocidadao.rs.gov.br/upload/arquivos/201707/31095002-guia-do-usuario-ckan-ibict.pdf)
 
 
 ## OUTROS ENTES
