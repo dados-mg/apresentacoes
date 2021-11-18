@@ -27,7 +27,7 @@
 
 - Apresentação da Diretoria Central de Transparência Ativa sobre [Abertura de Dados - das normas à publicação](https://github.com/dados-mg/apresentacoes/blob/master/dados-abertos-kick-off-2021-11.pptx?raw=true), contendo: contexto normativo, princípios e diretrizes, plano de ação para documentação e catalogação no Portal de Dados Abertos
 
-- [Publicadores de dados: da gestão estratégica à abertura](https://www.ok.org.br/wp-content/uploads/2021/05/PublicadoresDeDados2.pdf): e-book da Open Knowledge Brasil
+- [Publicadores de dados: da gestão estratégica à abertura](https://www.ok.org.br/wp-content/uploads/2021/05/PublicadoresDeDados2.pdf): e-book da Open Knowledge Brasil. Esse e-book é derivado dos cursos [Publicadores de Dados: da gestão estratégica à abertura](https://escoladedados.org/courses/publicadores/) e [Publicadores: Proteção de Dados Pessoais](https://escoladedados.org/courses/publicadores-protecao-de-dados-pessoais/)
 
 - [Cartilha de dados abertos governamentais do governo estadual do Rio Grande do Sul](https://www.centraldocidadao.rs.gov.br/upload/arquivos/201707/10105446-manual-dados-sensibilizacao.pdf)
 
