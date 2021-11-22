@@ -66,6 +66,8 @@
 
 - [Portal de Dados Abertos do município de Belo Horizonte](https://dados.gov.br/organization/prefeitura-de-belo-horizonte-pbh) - indexado ao Portal Federal
 
+- [Portal de Dados Abertos do estado de Alagoas](https://dados.al.gov.br/)
+
 - [Portal de Dados Abertos do município de Recife](http://dados.recife.pe.gov.br/)
 
 - [Portal de Dados Abertos do município de São Paulo](http://dados.prefeitura.sp.gov.br/pt_PT/about), contendo resumo do processo
