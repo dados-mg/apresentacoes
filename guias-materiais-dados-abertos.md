@@ -2,11 +2,11 @@
 
 ### generalistas
 
-- [Podcast da CGE/MG **PodeFalar!**, 17º episódio](https://www.youtube.com/watch?v=uFdYbIc_4ws), sobre a importância dos dados abertos, suas diferenças e complementaridades com o Portal da Transparência
+- [Apresentação de kick-off da Diretoria Central de Transparência Ativa sobre abertura de dados](https://github.com/dados-mg/apresentacoes/blob/master/dados-abertos-kick-off-2021-11.pptx?raw=true), contendo: contexto normativo, princípios e diretrizes, etapas para documentação e catalogação no Portal de Dados Abertos :star:
 
 - [Apresentação Relâmpago Diretoria Central de Transparência ativa Coda Br 2021](https://www.youtube.com/watch?v=JUW60w1jDdM&t=1346s) :star:
 
-- Apresentação da Diretoria Central de Transparência Ativa sobre [Abertura de Dados - das normas à publicação](https://github.com/dados-mg/apresentacoes/blob/master/dados-abertos-kick-off-2021-11.pptx?raw=true), contendo: contexto normativo, princípios e diretrizes, plano de ação para documentação e catalogação no Portal de Dados Abertos
+- [Podcast da CGE/MG **PodeFalar!**, 17º episódio](https://www.youtube.com/watch?v=uFdYbIc_4ws), sobre a importância dos dados abertos, suas diferenças e complementaridades com o Portal da Transparência
 
 - [Publicadores de dados: da gestão estratégica à abertura](https://www.ok.org.br/wp-content/uploads/2021/05/PublicadoresDeDados2.pdf): e-book da Open Knowledge Brasil. Esse e-book é derivado dos cursos [Publicadores de Dados: da gestão estratégica à abertura](https://escoladedados.org/courses/publicadores/) e [Publicadores: Proteção de Dados Pessoais](https://escoladedados.org/courses/publicadores-protecao-de-dados-pessoais/) :star:
 
