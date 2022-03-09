@@ -2,7 +2,7 @@
 
 ### generalistas
 
-- [Apresentação de kick-off da Diretoria Central de Transparência Ativa sobre abertura de dados](https://github.com/dados-mg/apresentacoes/blob/master/dados-abertos-kick-off-2021-11.pptx?raw=true), contendo: contexto normativo, princípios e diretrizes, etapas para documentação e catalogação no Portal de Dados Abertos :star:
+- [Apresentação de kick-off da Diretoria Central de Transparência Ativa sobre abertura de dados](https://github.com/dados-mg/apresentacoes/blob/master/dados-abertos-kick-off-2022-02.pptx?raw=true), contendo: contexto normativo, princípios e diretrizes, etapas para documentação e catalogação no Portal de Dados Abertos :star:
 
 - [Apresentação Relâmpago Diretoria Central de Transparência ativa Coda Br 2021](https://www.youtube.com/watch?v=JUW60w1jDdM&t=1346s) :star:
 
