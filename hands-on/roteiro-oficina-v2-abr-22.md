@@ -2,36 +2,40 @@
 
 ## recap
 
-1. características dados abertos
+3. características dados abertos
 
-2. escolha da base de exemplo - qual é e onde está
+4. escolha da base de exemplo - qual é e onde está
 
-3. transformação da base para csv
+5. transformação da base para csv
 
-4. transformação dos nomes dos cabeçalhos
+6. transformação dos nomes dos cabeçalhos, colunas e explicações sobre a especificação (mostrar o site)
+
+7. explicação do datapackage
+
 
 ## etapas da abertura e publicação
 
-5. esquema das etapas (não-lineares)
+9. esquema das etapas (não-lineares)
+
 	- pontuar o protagonismo do órgão publicador e auxílio da DCTA
 	- comentar sobre a restrição das informações
 	- 'bônus' = controle de versão (benefício de acompanhar integridade da base e visualizar validação automática online)
 
-6. dicionário de dados
-	- mostrar o site da especificação
+	
+10. início mão-na-massa:
+	
 	- explicar que vou alternar entre a linha de comando, a apresentação estática em pptx e sites de referência
 
-7. início mão-na-massa:
 	- instalação ambiente python
 	- ativação ambiente python
 	- instalação de pacotes
 
-8. criação de pasta, adição do arquivo csv
+. criação de pasta, adição do arquivo csv
 	- aumentar a tela do terminal
 	- explicar o pq do ambiente e a lógica de pacotes e dependências
 	- mostrar o ambiente criado na pasta
 
-9. descrição dos dados
+11. descrição dos dados
 	- frictionless describe (formato yaml)
 	- mostrar especificação padrão json (yaml como experiência mais amigável de criação e edição)
 	
@@ -46,7 +50,7 @@
 	
 	- validar o datapackage: frictionless validate datapackage.yaml
 
-10. principais erros de validação (simular):
+12. principais erros de validação (simular):
 
 	- name/título: do recurso e do conjunto
 
@@ -60,7 +64,7 @@
 
 - **pq tudo isso?** dicionário de dados pode estar em word, em pdf; mas para o dado ser acessado por códigos, ser corretamente interpretado e reutilizado, esses metadados precisam estar nestas linguagens específicas
 
-11. transformação do yaml para json
+13. transformação do yaml para json
 
 	````frictionless describe --type package --stats --json datapackage.yaml > datapackage.json
 	````
@@ -68,7 +72,7 @@
 	- validar o arquivo 'json' = frictionless validate datapackage.json
 	- comentar sobre as múltiplas possibilidaddes de errar a sintaxe na edição do formato json
 
-12. controle de versão no github
+14. controle de versão no github
 	- mostrar um conjunto versionado com validação automatizada
 	- inicializar o repositório na bash com git init
 	- criação do gitignore para não trackear o ambiente 'venv'
@@ -80,7 +84,7 @@
 	- adicionar as instruções para incorporar validação automática no github
 	- mostrar o relatório de validação
 
-13. publicação
+15. publicação
 
 	- dpckan dataset create
 	- owner_org
@@ -90,11 +94,11 @@
 	- dpckan dataset create
 	- mostrar o conjunto criado
 
-14. conversa
+. conversa
 
 	- curva de aprendizado, parceria, benefícios esperados
 
-15. próximos passos
+. próximos passos
 
 	- máquina preparada (apoio da TI para liberação do proxy), 
 	- base escolhida
