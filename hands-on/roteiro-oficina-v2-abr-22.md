@@ -66,7 +66,7 @@
 
 13. transformação do yaml para json
 
-	````frictionless describe --type package --stats --json datapackage.yaml > datapackage.json
+	````frictionless describe --type package --json datapackage.yaml > datapackage.json
 	````
 	- mostrar o arquivo 'json' na pasta
 	- validar o arquivo 'json' = frictionless validate datapackage.json
@@ -89,7 +89,7 @@
 	- dpckan dataset create
 	- owner_org
 
-	````frictionless describe --type package --stats --json datapackage.yaml > datapackage.json
+	````frictionless describe --type package --json datapackage.yaml > datapackage.json
 	````
 	- dpckan dataset create
 	- mostrar o conjunto criado
