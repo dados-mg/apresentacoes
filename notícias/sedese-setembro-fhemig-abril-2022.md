@@ -1,6 +1,6 @@
 # Conjuntos de dados da FHEMIG e da SEDESE disponíveis
 
-O Portal de Dados Abertos de Minas Gerais disponibilizou acesso a novos conjuntos de dados
+O [Portal de Dados Abertos de Minas Gerais](http://dados.mg.gov.br/) disponibilizou acesso a novos conjuntos de dados
 
 ## sobre a Fundação Hospitalar do Estado de Minas Gerais (FHEMIG), que estão publicados a partir de abril de 2022: 
 
