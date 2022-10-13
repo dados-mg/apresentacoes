@@ -18,7 +18,7 @@ Os dados são oriundos do sistema gerencial da FHEMIG e têm atualização mensa
 
 - O [Benefício Financeiro Força Família - Auxílio Emergencial Mineiro](https://dados.mg.gov.br/dataset/programas-transferencia-renda/resource/3658685d-e9d1-432d-9a51-01521f830133), aprovado pela Lei Estadual nº 23.801/2021 e regulamentado pelo Decreto Estadual nº 48.204/2021.
 
-Tratam-se de informações referentes aos beneficiários de dois programas de transferência de renda implementados pelo Estado de Minas Gerais, como medida de enfrentamento aos efeitos da pandemia do Covid-19. A identificação das famílias beneficiárias foi feita por meio da faixa de renda familiar per capita, a partir do Cadastro Único para Programas Sociais do Governo Federal - CadÚnico. Os dois benefícios foram pagos ao Responsável Familiar, que constitui o membro da família responsável pelo fornecimento das informações da unidade familiar registradas no CadÚnico.
+Tratam-se de informações referentes aos beneficiários de dois programas de transferência de renda implementados pelo Estado de Minas Gerais, como medida de enfrentamento aos efeitos da pandemia do Covid-19. 
 
 ## Dados Abertos
 
