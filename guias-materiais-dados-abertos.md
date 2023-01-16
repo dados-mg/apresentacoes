@@ -42,8 +42,9 @@
 
 - [Decreto Estadual 45969 de 2012](https://www.almg.gov.br/consulte/legislacao/completa/completa.html?tipo=DEC&num=45969&ano=2012), que regulamenta o acesso à informação no âmbito do poder executivo
 
-- [Decreto Estadual 48.383 de 2022](), que Regulamenta o Governo Digital Estadual, no âmbito da Administração Pública direta, autárquica
+- [Decreto Estadual 48.383 de 2022](https://www2.educacao.mg.gov.br/images/documentos/DECRETO%20N%C2%BA%2048.383,%20DE%2018%20DE%20MAR%C3%87O%20DE%202022.pdf), que Regulamenta o Governo Digital Estadual, no âmbito da Administração Pública direta, autárquica
 e fundacional do Poder Executivo. 
+
 Este decreto estabeleceu a obrigatoriedade de publicação de dado de compartilhamento amplo no Portal de Dados Abertos de Minas Gerais 
 
 - [Resolução CGE 20, de 06/08/2014](http://pesquisalegislativa.mg.gov.br/LegislacaoCompleta.aspx?cod=171158), que estabelece conceitos e diretrizes, no âmbito da Administração direta, autárquica e fundacional do Poder Executivo Estadual, em matéria de dados abertos governamentais.
@@ -68,7 +69,7 @@ Este decreto estabeleceu a obrigatoriedade de publicação de dado de compartilh
 
 - [Catálogo de Portais de Dados Abertos](https://github.com/dadosgovbr/catalogos-dados-brasil/blob/master/dados/catalogos.csv)
 
-- [Portal de Dados Abertos do município de Belo Horizonte](https://dados.gov.br/organization/prefeitura-de-belo-horizonte-pbh) - indexado ao Portal Federal
+- [Portal de Dados Abertos do município de Belo Horizonte](https://dados.gov.br/dados/organizacoes/visualizar/prefeitura-de-belo-horizonte-pbh) - indexado ao Portal Federal
 
 - [Portal de Dados Abertos do estado de Alagoas](https://dados.al.gov.br/)
 
