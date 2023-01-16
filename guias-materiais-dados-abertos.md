@@ -75,7 +75,7 @@ Este decreto estabeleceu a obrigatoriedade de publicação de dado de compartilh
 
 - [Portal de Dados Abertos do município de Recife](http://dados.recife.pe.gov.br/)
 
-- [Portal de Dados Abertos do estado de Santa Catarina]()
+- [Portal de Dados Abertos do estado de Santa Catarina](https://dados.sc.gov.br/)
 
 - [Portal de Dados Abertos do município de São Paulo](http://dados.prefeitura.sp.gov.br/pt_PT/about), contendo resumo do processo
 
