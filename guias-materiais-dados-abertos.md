@@ -60,9 +60,9 @@ Este decreto estabeleceu a obrigatoriedade de publicação de dado de compartilh
 
 ## PORTAL FEDERAL
 
-- [Kit para Dados Abertos](https://kit.dados.gov.br/)
+- [Portal de Dados](www.dados.gov.br)
 
-- [Manuais e Orientações](https://dados.gov.br/pagina/manuais-e-orientacoes)
+- [Manuais e Orientações](https://legado.dados.gov.br/pagina/manuais-e-orientacoes)
 
 
 ## OUTROS ENTES
@@ -74,6 +74,8 @@ Este decreto estabeleceu a obrigatoriedade de publicação de dado de compartilh
 - [Portal de Dados Abertos do estado de Alagoas](https://dados.al.gov.br/)
 
 - [Portal de Dados Abertos do município de Recife](http://dados.recife.pe.gov.br/)
+
+- [Portal de Dados Abertos do estado de Santa Catarina]()
 
 - [Portal de Dados Abertos do município de São Paulo](http://dados.prefeitura.sp.gov.br/pt_PT/about), contendo resumo do processo
 
