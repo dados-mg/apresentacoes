@@ -32,7 +32,7 @@
 
 - [Lei 12527, de 2011 - Lei de Acesso à Informação](http://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm)
 
-### nacional, de referência para instituição das políticas municipais
+### nacional, de referência para instituição das políticas estaduais e municipais
 
 - [Lei 14129, de 29/03/2021](http://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/L14129.htm), que Dispõe sobre princípios, regras e instrumentos para o Governo Digital e para o aumento da eficiência pública (...).
 
@@ -41,6 +41,10 @@
 ### estaduais, de referência para instituição das políticas municipais
 
 - [Decreto Estadual 45969 de 2012](https://www.almg.gov.br/consulte/legislacao/completa/completa.html?tipo=DEC&num=45969&ano=2012), que regulamenta o acesso à informação no âmbito do poder executivo
+
+- [Decreto Estadual 48.383 de 2022](), que Regulamenta o Governo Digital Estadual, no âmbito da Administração Pública direta, autárquica
+e fundacional do Poder Executivo. 
+Este decreto estabeleceu a obrigatoriedade de publicação de dado de compartilhamento amplo no Portal de Dados Abertos de Minas Gerais 
 
 - [Resolução CGE 20, de 06/08/2014](http://pesquisalegislativa.mg.gov.br/LegislacaoCompleta.aspx?cod=171158), que estabelece conceitos e diretrizes, no âmbito da Administração direta, autárquica e fundacional do Poder Executivo Estadual, em matéria de dados abertos governamentais.
 
