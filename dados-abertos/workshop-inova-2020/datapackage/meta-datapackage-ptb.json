@@ -1,0 +1,74 @@
+{
+  "profile": "tabular-data-package",
+  "resources": [
+    {
+      "name": "Nome do recurso; deve ser curto e adotar convenções de nomenclatura de URLs",
+      "path": "Localização dos dados do recurso, online ou no disco rígido local",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "field1",
+            "type": "string",
+            "format": "default",
+            "title": "Coluna 1",
+            "description": "Significado e detalhes"
+          },
+          {
+            "name": "field2",
+            "type": "number",
+            "format": "default",
+            "title": "Coluna 2",
+            "description": "Significado e detalhes"
+          },
+          {
+            "name": "field3",
+            "type": "integer",
+            "format": "default",
+            "title": "Coluna 3",
+            "description": "Significado e detalhes"
+          },
+          {
+            "name": "field4",
+            "type": "date",
+            "format": "default",
+            "title": "Coluna 4",
+            "description": "Significado e detalhes"
+          },
+          {
+            "name": "field5",
+            "type": "boolean",
+            "format": "default",
+            "title": "Coluna 5",
+            "description": "Significado e detalhes"
+          }
+        ]
+      },
+      "title": "Título ou sentença descritiva sobre o recurso",
+      "format": "‘csv’, ‘xls’, ‘json’ etc.",
+      "encoding": "especifica a codificação dos caracteres dos dados do recurso. Se nenhum valor for atribuído, a codificação padrão é a UTF-8",
+      "description": "Descrição do recurso, em formato markdown"
+    }
+  ],
+  "keywords": [
+    "lista de palavras-chave que auxiliam usuários na busca pelo conjunto de dados num catálogo"
+  ],
+  "homepage": "URL da web relacionada com este conjunto de dados",
+  "version": " Identifica a versão em publicação deste datapackage. Deve seguir padrões de versionamento da Frictionless Data",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "name": "Nome do recurso; deve ser curto e adotar convenções de nomenclatura de URLs",
+  "title": "Título ou sentença descritiva sobre o datapackage",
+  "description": "Descrição do datapackage, em formato markdown",
+  "contributors": [
+    {
+      "title": "nome de pessoa, setor ou organização",
+      "role": "autor"
+    }
+  ]
+}
