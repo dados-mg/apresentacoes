@@ -1,0 +1,79 @@
+{
+  "version": "4.23.2",
+  "time": 0.017,
+  "errors": [],
+  "tasks": [
+    {
+      "resource": {
+        "name": "estados",
+        "path": "data/estados.csv",
+        "profile": "tabular-data-resource",
+        "schema": {
+          "fields": [
+            {
+              "name": "COD",
+              "type": "integer",
+              "format": "default",
+              "description": "Lorem **markdownum** tollit, paulatimque Ereboque? Caput fretum lacus quid tamen\nlongoque fert posita pavonibus eminus, quidem sanguine nec letique mari rapida\nfidem secuta. Diem regnat Clytumque et cultros venit glomerataque genitore?\nAegide procul cum frustra centum dantibus ferro si terra Actaeona enim tardi\nreligata *quamvis fruticumque*. Violentus ventis manus *erat in tigride*,\nBacchus et **iam medio** restat ignes alta.\n\n1. Qui nunc opposui admirabile spes\n2. Hoc inquit\n3. Solvit et tandem ciborum\n4. Celare nec excutiant abibas\n5. Oro obscenae si velox enim concitus excipit\n\nCum nuntia: per qui pater artes aquas carior abstinet [ductor petebam\nGallicus](http://mortale.io/) melius interius vinxit! Omnia sonitu ales dominum\n[summa animaque sidera](http://ipsam.net/) stetit, at prodere totiens: ipse et\ndeprensa sua Phoebe. Et feritate terga. Elusaque Tartara turbine famulos murmur\nfenestris.\n"
+            },
+            {
+              "name": "NOME",
+              "type": "string",
+              "format": "default"
+            },
+            {
+              "name": "SIGLA",
+              "type": "string",
+              "format": "default"
+            }
+          ],
+          "primaryKey": "COD"
+        },
+        "title": "Estados brasileiros",
+        "format": "csv",
+        "encoding": "utf-8",
+        "description": "Cont\u00e9m as seguintes informa\u00e7\u00f5es para os estados brasileiros\n\n- C\u00f3digo\n- Nome\n- Sigla\n",
+        "scheme": "file",
+        "hashing": "md5",
+        "stats": {
+          "hash": "99167485b6ca41cfa6a97dc8bdf39fa1",
+          "bytes": 496,
+          "fields": 3,
+          "rows": 27
+        }
+      },
+      "time": 0.017,
+      "scope": [
+        "hash-count-error",
+        "byte-count-error",
+        "field-count-error",
+        "row-count-error",
+        "blank-header",
+        "extra-label",
+        "missing-label",
+        "blank-label",
+        "duplicate-label",
+        "incorrect-label",
+        "blank-row",
+        "primary-key-error",
+        "foreign-key-error",
+        "extra-cell",
+        "missing-cell",
+        "type-error",
+        "constraint-error",
+        "unique-error"
+      ],
+      "partial": false,
+      "errors": [],
+      "stats": {
+        "errors": 0
+      },
+      "valid": true
+    }
+  ],
+  "stats": {
+    "errors": 0,
+    "tasks": 1
+  },
+  "valid": true
+}

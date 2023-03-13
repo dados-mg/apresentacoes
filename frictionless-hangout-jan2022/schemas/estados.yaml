@@ -1,0 +1,11 @@
+fields:
+- name: COD
+  type: integer
+  format: default
+- name: NOME
+  type: string
+  format: default
+- name: SIGLA
+  type: string
+  format: default
+primaryKey: COD

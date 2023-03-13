@@ -1,0 +1,15 @@
+fields:
+- name: COD
+  type: integer
+  format: default
+  description: |
+    Código de dois dígitos que identificam o estado
+  title: Código do Estado
+- name: NOME
+  type: string
+  format: default
+  title: Nome do Estado
+- name: SIGLA
+  type: string
+  format: default
+  title: Sigla do Estado
